@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovators 2024 - Hackathon Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tech Innovators 2024 Hackathon Platform</h1>
+        <p>Join the hybrid hackathon event by signing up as an individual or team, and stay updated with real-time information!</p>
+    </header>
+
+    <!-- Registration Section -->
+    <section id="registration">
+        <h2>Register for Tech Innovators 2024</h2>
+        <div class="form-container">
+            <form id="individualForm">
+                <h3>Individual Registration</h3>
+                <label for="individualName">Name:</label>
+                <input type="text" id="individualName" name="individualName" required>
+
+                <label for="individualEmail">Email:</label>
+                <input type="email" id="individualEmail" name="individualEmail" required>
+
+                <button type="submit">Register as Individual</button>
+            </form>
+
+            <form id="teamForm">
+                <h3>Team Registration</h3>
+                <label for="teamName">Team Name:</label>
+                <input type="text" id="teamName" name="teamName" required>
+
+                <label for="teamLeader">Team Leader Name:</label>
+                <input type="text" id="teamLeader" name="teamLeader" required>
+
+                <label for="teamLeaderEmail">Team Leader Email:</label>
+                <input type="email" id="teamLeaderEmail" name="teamLeaderEmail" required>
+
+                <button type="submit">Register as Team</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Event Overview Section -->
+    <section id="eventOverview">
+        <h2>Event Overview</h2>
+        <p>Tech Innovators 2024 is a hybrid hackathon event where participants can join virtually or on-site. Compete in various coding challenges, attend workshops, and collaborate with peers to innovate solutions.</p>
+    </section>
+
+    <!-- Payment Integration Placeholder -->
+    <section id="payment">
+        <h2>Payment Integration</h2>
+        <p>Payment for registration will be available soon. Stay tuned for updates on secure payment options to confirm your spot in the hackathon!</p>
+    </section>
+
+    <!-- Real-Time Updates Section -->
+    <section id="updates">
+        <h2>Real-Time Updates</h2>
+        <div id="updateFeed">
+            <!-- Dynamic updates will be populated here -->
+        </div>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section id="leaderboard">
+        <h2>Leaderboard</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team/Participant</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboardBody">
+                <!-- Dynamic leaderboard entries will be added here -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
